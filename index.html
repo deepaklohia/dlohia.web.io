@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Deepak Lohia Automations</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+<!--
+<meta charset="utf-8">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="deepak lohia automations, excel, powerpoint , vba" name="description">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+-->
+<meta charset="utf-8">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="Deepak Lohia Automations" name="description">
+<meta content="free google add-ons,free ms excel add-ins, excel vba, google script, powerpoint , vba" name="keywords">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    <div id="ad">  
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9981417083094406"
+     crossorigin="anonymous"></script>
+    </div>
+     
+    <style>
+        body {
+            font-family: 'Open Sans', 'Helvetica', sans-serif;
+            color: #000;
+            padding: 0;
+            margin: 0;
+            line-height: 1.428;
+        }
+        h1, h2, h3, h4, h5, h6, p {
+            padding: 0;
+            margin: 0;
+            color:#333333;
+        }
+        h1 {
+            font-size: 30px;
+            font-weight: 600!important;
+            color: #333;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+        h3 {
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 28px;
+        }
+        hr {
+            margin-top: 35px;
+            margin-bottom: 35px;
+            border: 0;
+            border-top: 1px solid #bfbebe;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline-block;
+            float: right;
+            margin-left: 20px;
+            line-height: 35px;
+            font-weight: 100;
+        }
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+            /*color: inherit;*/    
+        }
+        
+        li a {
+            color: white;
+            margin-left: 3px;
+        }
+        li > i {
+            color: white;
+        }
+        .column-wrap a {
+            color: #5c34c2;
+            font-weight: 600;
+            font-size:16px;
+            line-height:24px;
+        }
+        .column-wrap p {
+            color: #717171;
+            font-size:16px;
+            line-height:24px;
+            font-weight:300;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        .navbar {
+            position: relative;
+            min-height: 45px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+        }
+        .navbar-brand {
+            float: left;
+            height: auto;
+            padding: 10px 10px;
+            font-size: 18px;
+            line-height: 20px;
+        }
+        .navbar-nav>li>a {
+            padding-top: 11px;
+            padding-bottom: 11px;
+            font-size: 13px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .navbar-nav>li>a:hover {
+            text-decoration: none;
+            color: #cdc3ea!important;
+        }
+        .navbar-nav>li>a i {
+            margin-right: 5px;
+        }
+        .nav-bar img {
+            position: relative;
+            top: 3px;
+        }
+        .congratz {
+            margin: 0 auto;
+            text-align: center;
+        }
+        .message::before {
+            content: " ";
+            //background: url(img/welcome.png);
+            width: 141px;
+            height: 175px;
+            position: absolute;
+            left: -150px;
+            top: 0;
+        }
+        .message {
+            width: 50%;
+            margin: 0 auto;
+            height: auto;
+            padding: 40px;
+            background-color: #eeecf9;
+            margin-bottom: 100px;
+            border-radius: 5px;
+            position:relative;
+        }
+        .message p {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        #pathName {
+            margin: 20px 10px;
+            color: grey;
+            font-weight: 300;
+            font-size:18px;
+            font-style: italic;
+        }
+        .column-custom {
+            border-radius: 5px;
+            background-color: #eeecf9;
+            padding: 35px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            font-size: 13px;
+            color: gray !important;
+            margin-top: 25px;
+            line-height: 1.4;
+            margin-bottom: 45px;
+        }
+        .footer a {
+            cursor: pointer;
+            color: #646464 !important;
+            font-size: 12px;
+        }
+        .copyright {
+            color: #646464 !important;
+            font-size: 12px;
+        }
+        .navbar a {
+            color: white !important;
+        }
+        .navbar {
+            border-radius: 0px !important;
+        }
+        .navbar-inverse {
+            background-color: #434343;
+            border: none;
+        }
+        .column-custom-wrap{
+            padding-top: 10px 20px;
+        }
+        @media screen and (max-width: 768px) {
+            .message {
+                width: 75%;
+                padding: 35px;
+            }
+            .container {
+                margin-top: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" width="120" alt="Deepak Lohia Automations"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+            <li>
+                    <a href="index.html"><i aria-hidden="true" ></i> Home</a>
+                </li>
+                <li>
+                    <a href="https://codician.dlohia.com/" target="_blank"><i aria-hidden="true" ></i> Excel Automations</a>
+                </li>
+                <li>
+                    <a href="https://attendancetracker.dlohia.com" target="_blank"><i aria-hidden="true" ></i> Google Sheets Add-on</a>
+                </li>
+
+                <li>
+                    <a href="https://dtt.dlohia.com" target="_blank"><i aria-hidden="true" ></i> MS Excel Add-in</a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/channel/UCfw5bPQzVXGt5swIOWVQz8Q?sub_confirmation=1" target="_blank" ><i aria-hidden="true" ></i> Youtube</a>
+                </li>
+                <li>
+                    <a href="https://dlohia.com/contactus.php"><i aria-hidden="true" ></i> Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="empty-account-page">
+    <div class="container">
+    <!--
+        <div class="row congratz">
+            <h1>Hey!</h1><em></em>
+            <h2 id="pathName"><em></em></h2>
+        </div>
+    -->
+
+     <!--
+        <div class="row message">
+            <p><span id="website" style="word-break:break-all;"></span><span style="font-style: italic;"> JGDJSS.</span> 
+            
+            I offer my respectful obeisances unto my spiritual master, who has opened my eyes, which were blinded by the darkness of ignorance, with the torchlight of knowledge.
+           <span style="font-style:italic"></span>
+            <span style="font-weight: bold;font-style:italic;"> </span></p>
+        </div>
+    -->
+        
+ 
+        <!--
+        <div class="col-xs-12">
+            <h2>Welcome</h2>
+        </div>
+        -->
+        
+        <div class="column-wrap clearfix">
+            <div class="col-xs-12">
+            </div>
+
+            <!-- EXCEL VBA AUTOMATIONS -->
+            <div class="col-xs-12 col-sm-4 column-custom-wrap">
+                <div class="column-custom">
+                    <h3 style="padding-bottom: 5px"><span lang="en-in">Excel VBA Automations</span></h3>
+                    <br>
+                    <p>1.<a style="color:inherit;font-weight:normal" href="https://youtu.be/c3qjkt1DGkU" target=_blank>Warehouse / inventory Tool</a></p>                    
+                    <p>2.<a style="color:inherit;font-weight:normal" href="https://www.youtube.com/watch?v=aj9e6tz2CPM" target=_blank>Outlook Email Extractor</a></p>
+                    <p>3.<a style="color:inherit;font-weight:normal" href="https://www.youtube.com/watch?v=AU5lbtVVL4M" target=_blank>Attendance Tacker </a></p>
+                    <p>4.<a style="color:inherit;font-weight:normal" href="https://www.youtube.com/watch?v=7-iv3L-lvBY" target=_blank>Bulk Letter Generator </a></p>
+                    <p>5.<a style="color:inherit;font-weight:normal" href="https://www.youtube.com/watch?v=ZgZHY4mOOvY&list=PLlHlEQIWv45vl9fz_kau5mCFtv_0zqgUa" target=_blank>Free VBA Automations</a></p>      
+                    <p>6.<a style="color:inherit;font-weight:normal" href="https://www.youtube.com/watch?v=fQMLwdoPWNA&list=PLlHlEQIWv45sB2RcVIwPxKHjZOxABjl0O" target=_blank>Sharepoint</a></p>      
+                    <p>7.<a style="color:inherit;font-weight:normal" href="https://timejet.dlohia.com" target=_blank>Timejet Web Tracker</a></p>      
+              
+                    <!--<p>learn about excel and VBA . Download world class autmomtaions .  .</p>-->
+                    <br>
+
+
+                    <p>
+                    <a href="https://www.youtube.com/channel/UCfw5bPQzVXGt5swIOWVQz8Q?sub_confirmation=1" style="color:inherit;font-weight:normal" target=_blank>..more on <b><i>YouTube</i></b></a>
+                    </p>
+                    <!--
+                    <a href="https://www.youtube.com/channel/UCfw5bPQzVXGt5swIOWVQz8Q?sub_confirmation=1" target=_blank>..more on YouTube</a>
+                        -->
+                </div>
+            </div>
+
+            <!-- GOOGLE SHEETS ADDON -->
+            <div class="col-xs-12 col-sm-4 column-custom-wrap">
+                <div class="column-custom">
+                    <h3 style="padding-bottom: 5px"><span lang="en-in">Google Sheets / Microsoft<br> Web Add-in's</span></h3>
+                    <br>
+                    <p>1. <a style="color:inherit;font-weight:normal" href="https://attendancetracker.dlohia.com/how-to-use-attendance-tracker" target=_blank><b>Google Sheets</b> Attendance Tracker</a></p>                    
+                    <p>2. <a style="color:inherit;font-weight:normal" href="https://timetracker.dlohia.com/how-to-use-time-tracker-google-sheet-add-on" target=_blank>Google Sheets Time Tracker</a></p>
+                    <p>3. <a style="color:inherit;font-weight:normal" href="https://combinesheets.dlohia.com/how-to-use-combine-sheets-google-add-on" target=_blank>Google Sheets Combine Sheets</a></p>
+                    <br> 
+                    <p>1.<a style="color:inherit;font-weight:normal;" href="https://dtt.dlohia.com" target=_blank><b>Microsoft Excel </b>Time Tracker</a></p>                    
+                    <p>2.<a style="color:inherit;font-weight:normal;" href="https://at.dlohia.com" target=_blank>Microsoft Excel Attendance Tracker</a></p>
+                    <p>2.<a style="color:inherit;font-weight:normal;" href="https://ms-combinesheets.dlohia.com/" target=_blank>Microsoft Excel Combine Sheets</a></p>
+                    <br>
+                    <!-- <p>Free google sheets add-on for your daily work.</p>-->
+                 </div>
+            </div>
+
+            <!-- MOBILE APPS  -->
+            <div class="col-xs-12 col-sm-4 column-custom-wrap">
+                <div class="column-custom">
+                    <h3 style="padding-bottom: 5px">Mobile / Web Apps</h3>
+                    <br>
+                    <p>1.<a style="color:inherit;font-weight:normal" href="https://play.google.com/store/apps/details?id=com.deepaklohia.learngurjari" target=_blank>Learn Gurjari </a></p>
+                    <p style="margin-left: 25px;">~<a style="color:inherit;font-weight:normal" href="https://learngurjari.dlohia.com" target=_blank><i>Web Version</i></a></p>      
+           
+                    <p>2.<a style="color:inherit;font-weight:normal" href="https://play.google.com/store/apps/details?id=com.dlohia.gurjaridictionary&hl=en_IN&gl=US" target=_blank>Gurjari Dictionary</a></p>      
+                    <p style="margin-left: 25px;">~<a style="color:inherit;font-weight:normal" href="https://mobile.dlohia.com/gurjari-dictionary/" target=_blank><i>Web Version</i></a></p>      
+                    
+                    <p>3.<a style="color:inherit;font-weight:normal" href="https://play.google.com/store/apps/details?id=com.deepaklohia.gurjargotra&hl=en_IN&gl=US" target=_blank>Gurjar Gotra</a></p>      
+                    <p style="margin-left: 25px;">~<a style="color:inherit;font-weight:normal" href="https://mobile.dlohia.com/gurjar-gotra" target=_blank><i>Web Version</i></a></p>      
+
+                    <p>4.<a style="color:inherit;font-weight:normal" href="https://mobile.dlohia.com/" target=_blank>MCD Voter List - Android</a></p>      
+                    <p style="margin-left: 25px;">~<a style="color:inherit;font-weight:normal" href="https://play.google.com/store/apps/details?id=com.dlohia.voterlist&hl=en_IN&gl=US" target=_blank><i>Android</i></a></p>      
+                    <p style="margin-left: 25px;">~<a style="color:inherit;font-weight:normal" href="https://mobile.dlohia.com/voter-list" target=_blank><i>Web Version</i></a></p>      
+           
+                    <!--
+                    <br>
+                    <p> android based mobile apps.</p>
+                    <p>
+                    <a href="https://mobile.dlohia.com/" style="color:inherit;font-weight:normal" target=_blank>..also avaiable in <b><i> web versions</i></b></a>
+                    </p>
+                    -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="row">
+                <div class="text-center" style="margin-bottom: 10px;">
+                    
+                </div>
+                <div class="copyright text-center">
+                    <span lang="en-in">DLA</span>© <?php echo date("Y"); ?>. All rights reserved
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
